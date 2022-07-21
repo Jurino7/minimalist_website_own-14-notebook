@@ -1,0 +1,15 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#rectangle1 {
+    width: 550px;
+    height: 500px;
+    background:rgb(237,237,237);
+    border-radius: 20px;
+    position: absolute;
+    top: 150px;
+    left: 450px;
+}

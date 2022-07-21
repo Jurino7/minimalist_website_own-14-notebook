@@ -1,0 +1,33 @@
+/*
+	elemental attributes of css file
+*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.first {	
+	height: 100vh;
+	background: linear-gradient(to left top, #A950AE, #EBD7EC);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: "Montserrat", sans-serif;
+
+}
+
+first h1 {
+	font-size: 100px;
+}
+
+.second {
+	height: 105vh;
+	background: white;
+	display: flex;
+	overflow: hidden;
+	justify-content: center;
+	align-items: center;
+	font-family: "Montserrat", sans-serif;
+	
+}
