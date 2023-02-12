@@ -1,5 +1,4 @@
 *{
-	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
@@ -21,48 +20,36 @@ section{
     overflow-y: scroll;
     height: 100vh;
 }
-
 /*  SECTION 1  */
 
-.one {
+#one {
     text-decoration: none;
     font-family: "Montserrat", sans-serif;
     position: absolute;
-    top: 20px;
-    left: 40px;
+    margin-top: 2vh;
+    margin-left: 2vw;
     font-size: 30px;
     font-weight: 700;
     color: black;
 }
 
-.two {
+.tag{
     text-decoration: none;
     font-family: "Montserrat", sans-serif;
-    position: absolute;
-    top: 25px;
-    right: 100px;
+    margin-top: 3vh;
     font-size: 20px;
     color: black;
 }
-
-.three {
-    text-decoration: none;
-    font-family: "Montserrat", sans-serif;
-    position: absolute;
-    top: 25px;
-    right: 210px;
-    font-size: 20px;
-    color: black;
+#two {
+    margin-left: 60vw;
 }
 
-.four {
-    text-decoration: none;
-    font-family: "Montserrat", sans-serif;
-    position: absolute;
-    top: 25px;
-    right: 340px;
-    font-size: 20px;
-    color: black;
+#three {
+    margin-left: 4vw;
+}
+
+#four {
+    margin-left: 4vw;
 }
 
 
@@ -89,7 +76,7 @@ p.about {
     font-family: "Montserrat", sans-serif;
     position: absolute;
     width: 35vw;
-    top: 40vh;
+    top: 35vh;
     left: 15vw;
     font-size: 15px;
     color: black;
@@ -100,7 +87,7 @@ p.typing {
     font-family: "Montserrat", sans-serif;
     position: absolute;
     width: 550px;
-    top: 47vh;
+    top: 42vh;
     left: 15vw;
     font-size: 15px;
     color: black;
@@ -123,7 +110,6 @@ p.typing {
 
 
 /*  SECTION 2  */
-
 
 #img2 {
     width: 35vw;
@@ -182,6 +168,13 @@ p.typing {
     top: 25vh;
     left: 62vw;
 }
+#message {
+    position: absolute;
+    top: -10%;
+    left: 25%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+}
 
 #time {
     position: absolute;
@@ -191,23 +184,16 @@ p.typing {
     font-size: 10px;
 }
 
-#message {
-    position: absolute;
-    top: 25%;
-    left: 25%;
-    font-family: "Montserrat", sans-serif;
-    font-size: 15px;
-}
 .text {
     position: absolute;
-    top: 35vh;
+    top: 30vh;
     left: 30%;
     font-family: "Montserrat", sans-serif;
     font-size: 40px;
 }
 .hover{
     position: absolute;
-    top: 25%;
+    top: 0%;
     left: 6%;
     font-family: "Montserrat", sans-serif;
     font-size: 11px;
@@ -231,6 +217,3 @@ p.typing {
 
 
 /* SECTION 3 */
-
-
-

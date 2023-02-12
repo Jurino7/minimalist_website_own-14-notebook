@@ -1,0 +1,87 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*Hide scrollbar but keep scrolling functioning*/
+::-webkit-scrollbar {
+    display: none;
+}
+
+.section{
+    width: 100vw;
+    height: 100vh;
+}
+
+#rectangle1 {
+    width: 65vw;
+    height: 70vh;
+    background:rgb(31, 30, 30);
+    border-radius: 20px;
+    position: absolute;
+    top: 125px;
+    left: 200px;
+    z-index: 1;  
+}
+
+#rectangle2 {
+    width: 65vw;
+    height: 15vh;
+    background:rgb(224, 224, 224);
+    border-radius: 20px;
+    position: absolute;
+    top: 625px;
+    left: 200px;  
+    z-index: 0;
+}
+#video{
+    position: absolute;
+    top: 23vh;
+    left: 19vw;
+    width: 784px;
+    height: 441px;
+    border-radius: 10px;
+    z-index: 2;
+
+}
+
+a.one {
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+}
+
+a.two {
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    top: 25px;
+    right: 100px;
+    font-size: 20px;
+    color: black;
+}
+
+a.three {
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    top: 25px;
+    right: 210px;
+    font-size: 20px;
+    color: black;
+}
+
+a.four {
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    top: 25px;
+    right: 340px;
+    font-size: 20px;
+    color: black;
+}

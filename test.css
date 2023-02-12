@@ -1,0 +1,29 @@
+
+.someContent {
+    width: 30%;
+    margin-left: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: left;
+    padding: 0px;
+    color: black;
+    height: 60px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.someContent .hovered { display: none; }
+.someContent:hover .hovered { display: block; }
+.someContent:hover .initial { display: none; }
+
+.someContent:hover {
+    background: rgba(209, 16, 16, 1);
+    border: 2px solid black;
+    overflow: hidden;
+    color: white;
+    width: 80%;
+    height: 400px;
+}
